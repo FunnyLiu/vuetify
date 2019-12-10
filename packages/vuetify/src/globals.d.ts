@@ -93,7 +93,7 @@ declare module 'vue/types/vue' {
     CombinedVueInstance<Instance, Data, Methods, Computed, Props> & Vue,
     Options
   >
-
+//对vue类型的拓展
   export interface Vue {
     _uid: number
     _isDestroyed: boolean
