@@ -5,7 +5,7 @@ import Vuetify from './framework'
 export default Vuetify
 
 const install = Vuetify.install
-
+//引入所有组件和指令挨个注册
 Vuetify.install = (Vue, args) => {
   install.call(Vuetify, Vue, {
     components,

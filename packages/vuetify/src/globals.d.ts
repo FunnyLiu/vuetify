@@ -71,7 +71,7 @@ declare global {
   export const __VUETIFY_VERSION__: string
   export const __REQUIRED_VUE__: string
 }
-
+// 在原来的基础上，扩展一些原有属性
 declare module 'vue/types/vnode' {
   export interface VNodeData {
     model?: {
